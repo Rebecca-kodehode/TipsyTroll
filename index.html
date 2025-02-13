@@ -8,28 +8,60 @@
       body {
         font-family: arial, sans-serif;
         background-color: #f0e6d2;
-        color: #333;
+        color: #33281e;
+        margin: 0;
+        padding: 20px;
       }
 
       header {
         background-color: #8b4513;
-        color: #fff;
+        color: #ffd700;
         padding: 20px;
         text-align: center;
+        font-family: "Copperplate", fantasy;
+        border-bottom: 5px solid #ffd700;
       }
 
       h1 {
         font-size: 2.5em;
+        text-shadow: 2px 2px 4px #000000;
+      }
+
+      nav {
+        margin-top: 20px;
       }
 
       nav a {
         color: #ffd700;
         text-decoration: none;
         margin: 0 10px;
+        transition: color 0.3s ease;
+        font-weight: bold;
+        padding: 5px 10px;
+        border: 1px solid #ffd700;
+      }
+
+      nav a:hover {
+        color: #ff6347;
       }
 
       main {
         padding: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+
+      section {
+        margin-bottom: 30px;
+        padding: 15px;
+        border: 1px solid #8b4513;
+      }
+
+      h2 {
+        color: #8b4513;
+        font-size: 1.8em;
+        border-bottom: 2px solid #8b4513;
       }
 
       button {
@@ -38,11 +70,33 @@
         padding: 10px 20px;
         border: none;
         cursor: pointer;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      footer {
+        background-color: #8b4513;
+        color: #ffd700;
+        font-style: italic;
       }
 
       input[type="text"] {
         padding: 10px;
-        width: 200px;
+        width: calc(100% - 22px);
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .special-item {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #ff6347;
+        background-color: #f0e6d2;
+        padding: 10px;
+        border: 2px solid #ff6347;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
       }
     </style>
   </head>
@@ -55,7 +109,10 @@
       </nav>
     </header>
     <main>
-      <p><!--Slogan here --></p>
+      <h2>
+        Step right up, stranger, and take a load off your feet, At The Tipsy
+        Troll Tavern, where adventure and whiskey meet!
+      </h2>
     </main>
     <footer>
       <p></p>
