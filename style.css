@@ -1,0 +1,59 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #c09d73;
+    color: #342a29;
+  }
+
+  header {
+    background-color: #50403e;
+    color: #936e57;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.551);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  nav a {
+    color: #936e57;
+    text-decoration: underline;
+    margin: 0 10px;
+    font-size: large;
+    font-weight: 300;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  button {
+    background-color: #7d7662;
+    color: #936e57;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  main p {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: larger;
+    font-weight: 600;
+  }
+
+  img {
+    
+  }
