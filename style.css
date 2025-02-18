@@ -57,6 +57,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    color: #8b4513;
+    font-size: 1.8em;
+    border-bottom: 2px solid #8b4513;
   }
 
   section {
@@ -183,4 +186,9 @@ body {
   .brews-container {
     max-height: 500px; /* A slightly larger height on larger screens */
   }
+}
+
+.tavern-sign {
+  width: 150px;
+  height: 150px;
 }
