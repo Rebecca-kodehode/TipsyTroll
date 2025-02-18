@@ -67,7 +67,10 @@ div.potion{
   }
 
   .potion p {
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 300;
+    font-style: italic;
   }
 
   img {
