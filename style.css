@@ -53,9 +53,52 @@ body {
     font-size: larger;
     font-weight: 600;
   }
-
-div.potion{
+  
+  .potion {
+    display: flex;
+    flex-direction: column; /* Stack the potion title and image/description vertically */
+    gap: 20px; /* Space between title and image/description */
+  }
+  .potion-title{
   width: fit-content;
+  margin: 0 auto; /* Center title horizontally */
+}
+
+.potion-header {
+  display: flex; /* Side-by-side layout for image and description */
+  gap: 20px; /* Space between image and decription */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.potion img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.potion-description {
+  display: flex;
+  flex-direction: column; /* Stack potion type and description vertically */
+  justify-content: flex-start;
+  width: 100%; /*Take up available space */
+}
+
+.potion-type {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.potion-type-description {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: none;
 }
 
   .potion h2 {
@@ -64,21 +107,7 @@ div.potion{
     margin-left: 10px;
     padding-right: 3px;
     border-right: 2px;
+    border-bottom: 2px;
   }
 
-  .potion p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
-    font-weight: 300;
-    font-style: italic;
-  }
 
-  img {
-    width: 200px;
-    height: 200px;
-    padding-top: 5px;
-    padding-right: 10px;
-    margin: 10px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-  }
