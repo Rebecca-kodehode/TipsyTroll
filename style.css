@@ -44,7 +44,7 @@ body {
     width: 200px;
   }
 
-  main p {
+  main > p:first-of-type { /* Selects only the P tag directly after Main */
     text-decoration: underline;
     display: flex;
     align-items: center;
@@ -52,6 +52,7 @@ body {
     align-content: center;
     font-size: larger;
     font-weight: 600;
+    margin-bottom: 50px;
   }
   
   .potion {
@@ -82,6 +83,7 @@ body {
   flex-direction: column; /* Stack potion type and description vertically */
   justify-content: flex-start;
   width: 100%; /*Take up available space */
+  max-width: 300px; /* Makes the text take up a certain area of the page */
 }
 
 .potion-type {
