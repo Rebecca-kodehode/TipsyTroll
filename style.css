@@ -22,6 +22,7 @@ body {
 
   h1 {
     font-size: 2.5em;
+    padding-bottom: 10px;
   }
 
   nav a {
@@ -115,6 +116,7 @@ body {
   text-decoration: none;
   min-width: 350px;
   padding-right: 10px;
+  line-height: 21px;
 }
 
   .potion h2 {
@@ -141,4 +143,24 @@ body {
     font-style: normal;
     text-decoration: none;
     width: 600px;
+    line-height: 21px;
+  }
+
+  .brews-showcase {
+    padding: 10px;
+    margin: 20px;
+    max-width: 600px;
+  }
+
+  .brew-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .brew-container {
+    width: 600px;
+    height: 300px;
+    max-height: 240px;
+    overflow-y: scroll;
+    line-height: 24px;
   }
